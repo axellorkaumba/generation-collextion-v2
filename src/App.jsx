@@ -493,7 +493,7 @@ export default function App(){
   const pages={home:<Home/>,shop:<Shop/>,product:<Prod/>,cart:<Cart/>,checkout:<Checkout/>,login:<Login/>,profile:<Profile/>,about:<About/>,designers:<Designers/>,foundation:<Foundation/>,careers:<Careers/>,faq:<FaqPage/>,contact:<Contact/>,legal:<Legal title={t?"Mentions légales":"Legal notice"} content={lc.legal}/>,cgv:<Legal title={t?"CGV":"Terms"} content={lc.cgv}/>,privacy:<Legal title={t?"Confidentialité":"Privacy"} content={lc.privacy}/>};
 
   return(
-    <div style={{minHeight:"100vh",background:C.white,fontFamily:"Poppins,sans-serif"}}>
+    <div style={{minHeight:"100vh",width:"100%",background:C.white,fontFamily:"Poppins,sans-serif"}}>
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Raleway:wght@200;300;400;500;600;700;800&display=swap');
         *{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
